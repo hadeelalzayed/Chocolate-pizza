@@ -1,0 +1,172 @@
+body {
+    font-family: 'Noto Serif', serif;
+    width: 960px;
+    margin: auto;
+}
+
+header {
+    content: " ";
+    display: block;
+    border-bottom: 10px inset lightgray;
+}
+
+header img {
+    float: left;
+}
+
+#topHead {
+    font-family: 'Yellowtail', cursive;
+}
+
+nav {
+    float: right;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Noto Serif', serif;
+    width:960px;
+}
+
+h2, h3 {
+    text-transform: uppercase;
+    color: grey;
+    font-family: 'Strait', sans-serif;
+}
+
+#print h3{
+    padding-left: 2px;
+    float: right;
+    font-size: small;
+}
+
+.articlehead {
+    display: block
+}
+
+#print {
+    float: right;
+
+}
+
+#printText {
+    text-transform: uppercase;
+    color: grey;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+#cake {
+    height: 200px;
+    width: 100%;
+}
+
+.table {
+    font-family: 'Patrick Hand', cursive;
+}
+
+.container {
+    position: relative;
+    /* text-align: center; */
+    align-items: center;
+    color: black;
+    /* display: inline-block */
+}
+
+.Tables {
+    font-family: 'Patrick Hand', cursive;
+    position: absolute; 
+    display: inline-block;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+.Tables2 {
+    font-family: 'Patrick Hand', cursive;
+    position: absolute; 
+    display: inline-block;
+    top: 50%;
+    right: 40%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+
+}
+
+#table1 {
+    float: left;
+}
+
+#table2 {
+    float: right;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+li {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+li button {
+    margin-right: 2em;
+}
+
+main {
+    border-bottom: 10px inset lightgray;
+    /* background-image: repeating-linear-gradient(-45deg, grey, grey 1px, white, white 2px); */
+}
+
+#ven {
+    float: left;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+button {
+    float: right;
+    margin-top: 60px;
+    background: #B2735D;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin-left: 25px;
+}
+
+
+#copyright {
+    text-align: center;
+    color: gray;
+    margin-top: 70px;
+    
+}
+
+input[type=checkbox]:checked + label{
+    color: black;
+    text-decoration: line-through;
+}
+
+#footLogo { 
+    position:absolute; 
+    right: 50%;
+    top: 223.5%;
+    
+}
+#imgFooter{
+    width:70%; 
+	text-align:center; 
+	border-bottom: 2px solid #cec5ba; 
+	line-height:0.1em; 
+	margin-left: 120px;
+}
+
+
